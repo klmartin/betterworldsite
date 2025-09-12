@@ -55,28 +55,28 @@
       </div>
     </div><!-- End Top Bar -->
 
-    <div class="branding d-flex align-items-cente">
+    <div style="background-color:#ffffff; padding:0px 0px 0px 0px;" class="branding d-flex align-items-cente">
 
-      <div class="container position-relative d-flex align-items-center justify-content-between">
+      <div  class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo-01.png" alt="">
-          <h1 class="sitename">Better World Charity</h1>
+          <img style="max-height: 100px;" src="assets/img/logo-01.png" alt="">
+          <!-- <h1 class="sitename">Better World Charity</h1> -->
           <span>.</span>
         </a>
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero"  class="active">Home<br></a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Events</a></li>
-            <li><a href="#team">Team</a></li>
-            
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+       <nav id="navmenu" class="navmenu">
+  <ul>
+    <li><a href="#hero" class="active" style="color: #95258c;">Home<br></a></li>
+    <li><a href="#about" style="color: #95258c;">About</a></li>
+    <li><a href="#services" style="color: #95258c;">Services</a></li>
+    <li><a href="#portfolio" style="color: #95258c;">Events</a></li>
+    <li><a href="#team" style="color: #95258c;">Team</a></li>
+    <li><a href="#contact" style="color: #95258c;">Contact</a></li>
+  </ul>
+  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+</nav>
+
 
       </div>
 
@@ -87,22 +87,22 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section accent-background" style="background-color:#2bbbc6">
+    <section id="hero" class="hero section accent-background" style="background-color:#ffffff">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-5 justify-content-between">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2><span>🌍 Building Hope,  </span><span class="accent">Changing Lives.</span></h2>
-            <p>Better World Charity is dedicated to uplifting the elderly, orphans, widows, the sick, and street children. Through compassion, empowerment, and advocacy, we strive to create a society where every person is valued, supported, and given the opportunity to thrive with dignity.</p>
+            <h2 style="color:#95258c"><span> Building Hope,  </span><span class="accent">Changing Lives.</span></h2>
+            <p style="color:#95258c">Better World Charity is dedicated to uplifting the elderly, orphans, widows, the sick, and street children. Through compassion, empowerment, and advocacy, we strive to create a society where every person is valued, supported, and given the opportunity to thrive with dignity.</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a  style="color:#95258c" href="#about" class="btn-get-started">Get Started</a>
+              <a  style="color:#95258c" href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
-          <div class="col-lg-5 order-1 order-lg-2">
+        <!--   <div class="col-lg-5 order-1 order-lg-2">
 
             <img src="assets/img/logo bwc-01.svg" class="img-fluid" alt="">
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -330,28 +330,26 @@ empowered and integrated into society with dignity and respect.</p>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/niteteefull1.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/nitetee.jpeg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details"> Nitetee Foundation</a></h4>
-                  <p>In 2022, we had the opportunity to visit Nitetee Foundation Tanzania, where we extended our support by providing basic needs to the community. It was an impactful experience that reinforced the importance of collective responsibility and compassion</p>
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="portfolio-content h-100">
+              <!-- Link for Lightbox -->
+              <a href="assets/img/portfolio/video.mp4" data-gallery="portfolio-gallery-app" class="glightbox">
+                <!-- Video Thumbnail with Fixed Size -->
+                <div style="width:296px;height:222px;overflow:hidden;border-radius:10px;display:flex;align-items:center;justify-content:center;background:#000;">
+                  <video autoplay muted loop playsinline 
+                    style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
+                    <source src="assets/img/portfolio/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
+              </a>
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html" title="More Details">Easter 2025</a></h4>
+                <p>During Easter 2025 in Dar es Salaam, we prepared and distributed special packages for widows. Each package included rice, potatoes, meat, tomatoes, bell peppers, carrots, onions, and cooking oil — a gesture of care and support during the festive season.</p>
               </div>
-            </div><!-- End Portfolio Item -->
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="assets/img/portfolio/bukumbifull.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/bukumbi.jpeg" class="img-fluid" alt=""></a>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Bukumbi Elderly Center</a></h4>
-                  <p>We visited Bukumbi Elderly Center in Mwanza to provide essential basic needs. This initiative was a meaningful opportunity to give back and support the elderly community with care and compassion</p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <a href="assets/img/portfolio/niteteefull.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/nitetee.jpg" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
@@ -361,7 +359,7 @@ empowered and integrated into society with dignity and respect.</p>
               </div>
             </div><!-- End Portfolio Item -->
 
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <a href="assets/img/portfolio/upendofull.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/upendo.jpg" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
@@ -372,24 +370,50 @@ empowered and integrated into society with dignity and respect.</p>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/niteteefull1.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/nitetee.jpeg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details"> Nitetee Foundation</a></h4>
+                  <p>In 2022, we had the opportunity to visit Nitetee Foundation Tanzania, where we extended our support by providing basic needs to the community. It was an impactful experience that reinforced the importance of collective responsibility and compassion</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+          
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
   <div class="portfolio-content h-100">
     <!-- Link for Lightbox -->
-    <a href="assets/img/portfolio/video.mp4" data-gallery="portfolio-gallery-app" class="glightbox">
+    <a href="assets/img/portfolio/2022video.mp4" data-gallery="portfolio-gallery-app" class="glightbox">
       <!-- Video Thumbnail with Fixed Size -->
       <div style="width:296px;height:222px;overflow:hidden;border-radius:10px;display:flex;align-items:center;justify-content:center;background:#000;">
         <video autoplay muted loop playsinline 
           style="width:100%;height:100%;object-fit:cover;border-radius:10px;">
-          <source src="assets/img/portfolio/video.mp4" type="video/mp4">
+          <source src="assets/img/portfolio/2022video.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
     </a>
     <div class="portfolio-info">
-      <h4><a href="portfolio-details.html" title="More Details">Easter 2025</a></h4>
-      <p>During Easter 2025 in Dar es Salaam, we prepared and distributed special packages for widows. Each package included rice, potatoes, meat, tomatoes, bell peppers, carrots, onions, and cooking oil — a gesture of care and support during the festive season.</p>
+      <h4><a href="portfolio-details.html" title="More Details">Chistmas 2022</a></h4>
+      <p>In 2022, we prepared meals for street children in Dar es Salaam and celebrated Christmas together. It was a meaningful occasion filled with joy, love, and the spirit of giving.</p>
     </div>
   </div>
-</div><!-- End Portfolio Item -->
+</div>
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/bukumbifull.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/bukumbi.jpeg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Bukumbi Elderly Center</a></h4>
+                  <p>We visited Bukumbi Elderly Center in Mwanza to provide essential basic needs. This initiative was a meaningful opportunity to give back and support the elderly community with care and compassion</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+    
+          
+
+
+
+<!-- End Portfolio Item -->
 
 
 <!--   <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
@@ -468,7 +492,7 @@ empowered and integrated into society with dignity and respect.</p>
             <div class="member">
               <img src="assets/img/team/peter.jpeg" class="img-fluid" alt="">
               <h4>Petro Masolwa Mushandete</h4>
-              <span>Treasure</span>
+              <span>Health Development and Research Officer</span>
              <!--  <div class="social">
                 <a href=""><i class="bi bi-twitter-x"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -476,7 +500,37 @@ empowered and integrated into society with dignity and respect.</p>
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div> -->
             </div>
-          </div><!-- End Team Member -->
+          </div>
+
+           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/godfrey.jpeg" class="img-fluid" alt="">
+              <h4>Godfrey Paul Nhamwete</h4>
+              <span>Program Officer</span>
+             <!--  <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+          </div>
+
+           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/witi.jpeg" class="img-fluid" alt="">
+              <h4> Witness Julias Kweka</h4>
+              <span>Treasurer</span>
+             <!--  <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- End Team Member -->
  <!-- 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
