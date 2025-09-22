@@ -77,7 +77,6 @@
   <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav>
 
-
       </div>
 
     </div>
@@ -129,75 +128,82 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+  
+<section id="about" class="about section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Welcome to the Better World Charity Fundraising Page!<br></h2>
-        <p>Join us in our mission to bring hope and transformation to communities in need. Your support helps us provide healthcare for the sick, vocational training to empower youth, food and shelter for street children, and advocacy for vulnerable groups.</p>
+  <div class="container my-5">
+    <h3 class="text-center mb-4">Posts and Recommendations!</h3>
 
-        <p>Every contribution—big or small—goes directly toward creating meaningful and lasting change. Together, we can foster healthier lives, stronger communities, and a brighter future for those who need it most.</p>
-        <p>
-         Donate today and be a part of building a better world!
-        </p>
-      </div><!-- End Section Title -->
-
-     
-        <div class="container my-5">
-  <div class="row justify-content-center">
-
-    <!-- Bank Details Card -->
-    <div class="col-md-5 mb-3">
-      <div 
-        class="card text-center p-4 shadow" 
-        style="border-radius: 15px; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;"
-        onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0px 8px 20px rgba(0,0,0,0.2)';" 
-        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';"
-      >
-        <div class="card-body">
-          <i class="bi bi-bank" style="font-size: 40px; color: #007bff;"></i>
-          <h5 class="card-title mt-3">Bank Transfer</h5>
-          <p class="card-text mb-1"><strong>Bank:</strong> NBC</p>
-          <p class="card-text mb-1"><strong>Account Name:</strong> Better World Charity</p>
-          <p class="card-text mb-1"><strong>Account Number:</strong> 016172000900</p>
-        </div>
+    <!-- Scroll Container -->
+    <div id="marquee" class="d-flex flex-row" 
+         style="gap: 20px; overflow-x: hidden; white-space: nowrap;">
+      
+      <!-- Instagram-style Cards -->
+      <div class="card shadow" style="min-width: 250px; border-radius: 15px;">
+        <img height="200px" width="300px" src="assets/img/portfolio/nitetefundation1.jpeg" class="card-img-top" 
+             style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="Donation Impact">
+        <!-- <div class="card-body text-center">
+          <p class="card-text">Providing food and shelter to children in need.</p>
+        </div> -->
       </div>
-    </div>
 
-    <!-- M-PESA Details Card -->
-    <div class="col-md-5 mb-3">
-      <div 
-        class="card text-center p-4 shadow" 
-        style="border-radius: 15px; transition: transform 0.3s, box-shadow 0.3s; cursor: pointer;"
-        onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0px 8px 20px rgba(0,0,0,0.2)';" 
-        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0px 4px 10px rgba(0,0,0,0.1)';"
-      >
-        <div class="card-body">
-          <i class="bi bi-phone" style="font-size: 40px; color: #28a745;"></i>
-          <h5 class="card-title mt-3">M-PESA</h5>
-          <p class="card-text mb-1"><strong>0757 477 446</strong> - Better World Charity</p>
-          <p class="card-text mb-1"><strong>0767 477 446</strong> - Better World Charity</p>
-          <p class="card-text mb-1"><strong>0743 477 477</strong> - Better World Charity</p>
-        </div>
+      <div class="card shadow" style="min-width: 250px; border-radius: 15px;">
+        <img height="200px" width="300px" src="assets/img/portfolio/nitetefundation3.jpeg" class="card-img-top" 
+             style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="Healthcare">
+        <!-- <div class="card-body text-center">
+          <p class="card-text">Healthcare outreach programs saving lives.</p>
+        </div> -->
       </div>
-    </div>
 
+      <div class="card shadow" style="min-width: 250px; border-radius: 15px;">
+        <img height="200px" width="300px" src="assets/img/portfolio/upendodaima2.jpeg" class="card-img-top" 
+             style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="Training">
+        <!-- <div class="card-body text-center">
+          <p class="card-text">Vocational training empowering young people.</p>
+        </div> -->
+      </div>
+
+      <div class="card shadow" style="min-width: 250px; border-radius: 15px;">
+        <img height="200px" width="300px" src="assets/img/portfolio/upendodaima8.jpeg" class="card-img-top" 
+             style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="Community Work">
+      <!--   <div class="card-body text-center">
+          <p class="card-text">Building stronger, self-reliant communities.</p>
+        </div> -->
+      </div>
+      <div class="card shadow" style="min-width: 250px; border-radius: 15px;">
+        <img height="200px" width="300px" src="assets/img/portfolio/bukumbi2.jpeg" class="card-img-top" 
+             style="border-top-left-radius: 15px; border-top-right-radius: 15px;" alt="Community Work">
+      <!--   <div class="card-body text-center">
+          <p class="card-text">Building stronger, self-reliant communities.</p>
+        </div> -->
+      </div>
+      
+
+    </div>
   </div>
-</div>
 
-        </div>
+</section>
 
-      </div>
+<script>
+  const marquee = document.getElementById("marquee");
 
-    </section><!-- /About Section -->
+  // Clone the cards so we have an infinite loop effect
+  marquee.innerHTML += marquee.innerHTML;
 
-   
-   
+  let scrollAmount = 0;
+  function autoScroll() {
+    scrollAmount += 1; // speed (increase number for faster scroll)
+    if (scrollAmount >= marquee.scrollWidth / 2) {
+      scrollAmount = 0; // reset when half of content is scrolled
+    }
+    marquee.scrollTo({ left: scrollAmount, behavior: "auto" });
+    requestAnimationFrame(autoScroll);
+  }
+
+  autoScroll();
+</script>
 
 
-
- 
   </main>
 
   <footer id="footer" class="footer accent-background">
